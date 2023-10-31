@@ -1,0 +1,10 @@
+guest_list=['bill gates', 'mark zukerberg', 'andrew huberman']
+print(f"hi {guest_list[0]} i'd like to invite you to dinner")
+print(f"hi {guest_list[1]} i'd like to invite you to dinner")
+print(f"hi {guest_list[2]} i'd like to invite you to dinner")
+print(f"{guest_list[1]} can not come to dinner")
+guest_list.pop(1)
+guest_list.insert(1, 'mike')
+print(f"hi {guest_list[0]} i'd like to invite you to dinner")
+print(f"hi {guest_list[1]} i'd like to invite you to dinner")
+print(f"hi {guest_list[2]} i'd like to invite you to dinner")

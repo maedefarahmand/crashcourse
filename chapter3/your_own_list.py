@@ -1,0 +1,2 @@
+mylist=['bus', 'subway', 'car', 'bicycle']
+print(f"i ususally take the {mylist[0]} for transportation but sometimes i have to take the {mylist[1]} too. I also drive and have a {mylist[2]} but i never use a {mylist[3]}")
