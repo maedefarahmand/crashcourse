@@ -1,0 +1,5 @@
+even_numbers=list(range(2,11,2))
+print(even_numbers)
+print(f"the first three items in the list are: {even_numbers[:3]}")
+print(f"the middle three items in the list are: {even_numbers[3:6]}")
+print(f"the last three items in the list are: {even_numbers[3:6]}")
